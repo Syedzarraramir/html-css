@@ -1,0 +1,88 @@
+body {
+    background-image: url(../work-picture/y2mate.com\ -\ Smaller\ Network\ Connection\ Background_1080p.gif);
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#zarrarcompany {
+    width: 200px;
+    color: orange;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 100;
+}
+
+nav header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: x-large;
+}
+
+nav header a:hover {
+    color: white;
+    font-size: xx-large;
+}
+
+#centrediv {
+    margin-top: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+    background-size: cover; 
+    
+}
+
+#networking {
+    font-size:x-large;
+    color: white;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#more-info-btn, #subscribe-btn {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 0 10px; /* Adjust margin between buttons */
+    background-color: #0056b3; /* Set background color of buttons to a shade of blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#more-info-btn:hover, #subscribe-btn:hover {
+    filter: brightness(90%); /* Adjust brightness on hover */
+}
